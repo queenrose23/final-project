@@ -1,7 +1,10 @@
-.download{
+*{
+    font-size: 12px;
+}
+.download, .footer{
     background-color: #6D1830;
 }
-.download h1{
+.download h1 , .getfont{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .btn-color , .butt2{
@@ -9,6 +12,14 @@
 }
 .get-bg-color{
     background-color: #14394C ;
+}
+
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: #6D1830;
 }
 
 
