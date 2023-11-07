@@ -307,3 +307,18 @@ padding: 50px 10px;
         display: none;
     }
 }
+.log3{
+    display: flex;
+    gap: 800px;
+}
+.pik2{
+    padding-bottom: 50px;
+}
+.log4{
+    display: flex;
+    gap: 800px;
+}
+.log5{
+    display: flex;
+    gap: 20px;
+}
