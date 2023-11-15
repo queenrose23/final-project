@@ -110,3 +110,227 @@
     display: flex;
     gap: 20px;
 }
+
+@media (max-width:1000px) and (min-width:416px) {
+    .navbar>div img{
+        width: 30px;
+        height: 30px;
+    }
+    .navbar>div:nth-child(2){
+        display: flex;
+        column-gap: 5px;
+        margin: auto 0;
+    }
+   
+    .navbar>div:nth-child(3) button{
+        display: none;
+        border: none;
+    }
+    .bloghub>div:nth-child(2)>img{
+       width: 250px;
+       display: none;
+       height: 100px;
+    }
+    
+    .developer{
+        column-gap: 10px;
+        flex-direction: column;
+    
+    }
+    .developer>div:nth-child(2){
+        display: flex;
+       flex-direction: column;
+    }
+    .developer>div:nth-child(2)>span:nth-child(4){
+        display: flex;
+        gap: 20px;
+    }
+  
+    .article>div:nth-child(1){
+        flex-direction: column;
+    }
+    .article>div:nth-child(1)>button{
+     border-color: #6D1830;
+    width: 40%;
+     padding: 20px 10px;
+    }
+    .article>div:nth-child(2)>div{
+        width: 55%;
+        margin: 40px;
+    }
+    
+    .footer{
+        margin:40px 0px;
+    }
+    .Subfooter{
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 70px 20px;
+        border: 1px solid red;
+    }
+    .Subfooter>div{
+        width: 100%;
+        text-align: start;
+        flex-direction: column;
+        display: flex;
+        padding: 40px;
+    }
+    .Subfooter>div>h3{
+        font-size: 26px;
+    }
+    .Subfooter>div input{
+        padding: 10px;
+        width: 95%;
+        border-radius: 5px;
+    
+    }
+    .Subfooter>div button{
+        padding: 10px;
+        border-radius: 5px;
+        color: #6D1830;
+        width: 50%;
+    
+    }
+     .Subfooter1 , .Subfooter2{
+        display: flex;
+        justify-content: stretch;
+        padding: 40px;
+        flex-direction: column;
+     }
+    .Subfooter1>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .Subfooter1>div:nth-child(1)>img{
+        width: 60px;
+        height: 60px;
+    }
+    .Subfooter1>div:nth-child(2)>img{
+        width: 200px;
+        height: 100px;
+    }
+    .Subfooter1>div>b{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .Subfooter2>div{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .Subfooter2>div:nth-child(1)>img{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media (max-width:416px) and (min-width:4px) {
+    .navbar>div img{
+        width: 30px;
+        height: 30px;
+    }
+    .navbar>div:nth-child(2){
+        display: flex;
+        column-gap: 10px;
+        font-size: 12px;
+        margin: auto 0;
+    }
+   
+    .navbar>div:nth-child(3) button{
+        display: none;
+        border: none;
+    }
+    .bloghub>div:nth-child(2)>img{
+       width: 250px;
+       display: none;
+       height: 100px;
+    }
+    .Article>div:nth-child(1){
+        flex-direction: column;
+    }
+    .Article>div:nth-child(1)>button{
+     border-color: #6D1830;
+    width: 40%;
+     padding:0px;
+    }
+    .Article>div:nth-child(2)>div{
+        width: 95%;
+        padding: 0;
+        margin: 40px;
+    }
+    
+    .footer1{
+        margin:40px 0px;
+    }
+    .footer1{
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 70px 20px;
+        border: 1px solid red;
+    }
+    .footer1>div{
+        width: 100%;
+        text-align: start;
+        flex-direction: column;
+        display: flex;
+        padding: 00px;
+    }
+    .Art1>div>img:nth-child(1){
+        width: 100% !important;
+    }
+    .footer1>div>h3{
+        font-size: 26px;
+    }
+    .footer1>div input{
+        padding: 10px;
+        width: 95%;
+        border-radius: 5px;
+    
+    }
+    .footer1>div button{
+        padding: 10px;
+        border-radius: 5px;
+        color: #6D1830;
+        width: 50%;
+    
+    }
+     .log3 , .log4{
+        display: flex;
+        justify-content: stretch;
+        padding: 10px;
+        flex-direction: column;
+        gap: 10px;
+     }
+    .log3>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .log3>div:nth-child(1)>img{
+        width: 60px;
+        height: 60px;
+    }
+    .log3>div:nth-child(2)>img{
+        width: 200px;
+        height: 80px;
+    }
+    .log3>div>b{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .log4>div{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .log4>div:nth-child(1)>img{
+        width: 30px;
+        height: 30px;
+    }
+}
